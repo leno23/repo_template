@@ -1,0 +1,63 @@
+#app {
+  font-family: Microsoft YaHei, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--td-text-color-primary);
+}
+#nprogress .bar {
+  // background: var(--td-brand-color) !important;
+  background: repeating-linear-gradient(
+    to right,
+    #0062fa 0%,
+    #ffbd2e 25%,
+    #ff454f 50%,
+    #ffbd2e 75%,
+    #0062fa 100%
+  ) !important;
+}
+
+// .vxe-table--render-default{
+//   font-family: Microsoft YaHei, Avenir, Helvetica, Arial, sans-serif !important;
+// }
+
+// .vxe-table--render-default.border--inner .vxe-table--header-wrapper, .vxe-table--render-default.border--none .vxe-table--header-wrapper {
+//   background-color: #fff;
+// }
+
+.t-dialog--default {
+  padding: 28px;
+}
+
+* {
+  @include base-scroll;
+  padding: 0;
+  margin: 0;
+}
+
+html > body {
+  @include big-scroll;
+  min-width: 1280px;
+}
+
+.t-menu__popup .t-menu__item {
+  height: 36px;
+  line-height: 36px;
+}
+
+// * ---------------------- 通用类名 ---------------------
+.flex-xy-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-y-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-x-center {
+  display: flex;
+  justify-content: center;
+}
+

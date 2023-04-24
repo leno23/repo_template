@@ -1,0 +1,57 @@
+// 本文件会自动import到所有组件中，作全局变量
+
+// $asideMenuItemHeight: 48px; //菜单项的高度
+// $asideMenuFontSize: 14px; //菜单项字体大小
+// $asideMenuIconSize: 20px; //菜单项图标大小
+
+// $layoutAnimationTime: 300ms;
+// @import 'vxe-table/styles/variable.scss';
+
+// $vxe-font-family: Microsoft YaHei, Avenir, Helvetica, Arial, sans-serif;
+
+$navBarHeight: 56px; //顶部navBar的高度
+$navBarBg: #2c2c2c;
+
+$asideWidth: 240px; //左侧轴线宽度,影响左侧菜单展开的宽度和nav左上角logo占位块宽度
+$footerHeight: 24px;
+$contentHeight: calc(100vh - #{$navBarHeight} - #{$footerHeight});  // @内容区高度
+
+$td-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+$td-bezier: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+$td-radius: 3px;
+
+$content-min-width: 1300px;
+
+@mixin base-scroll {
+  &::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-clip: content-box;
+    background-color: #d1d1d1;
+    border: 1px solid transparent;
+  }
+
+  &::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-button  {
+    display: none
+  }
+}
+
+@mixin big-scroll {
+  @include base-scroll;
+  &::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    background-color: #b1b1b1;
+  }
+
+  &::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+  }
+}

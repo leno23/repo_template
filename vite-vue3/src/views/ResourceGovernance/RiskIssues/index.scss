@@ -1,0 +1,81 @@
+.risk-issues {
+  height: calc(#{$contentHeight} - 20px);
+  margin: 10px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  .operation-btn {
+    float: right;
+  }
+  .ignore {
+    margin-right: 10px;
+  }
+  .search-tab {
+    margin: 15px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: var(--td-comp-margin-l);
+  }
+  .inline-block {
+    display: inline-block;
+  }
+  .flex1 {
+    flex: 1;
+  }
+  .level{
+    &_0{
+      color:var(--td-error-color);
+    }
+    &_1{
+      color:var(--td-warning-color);
+    }
+    &_2{
+      color:var(--td-success-color);
+    }
+  }
+  .marginleft50 {
+    margin-left: 50px;
+  }
+  .marginleft10 {
+    margin-left: 10px;
+  }
+  .marginleft20 {
+    margin-left: 20px;
+  }
+  .issues-title {
+    color: #000;
+    height: 22px;
+    font-size: 16px;
+  }
+  .t-avatar {
+    margin-right: 5px;
+  }
+  .issues-detail {
+    width: 100%;
+    color: grey;
+  }
+  .text-ellipsis {
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: bottom;
+  }
+  .issues-props {
+    font-size: 12px;
+    .business, .account {
+      width: 150px;
+    }
+    svg {
+      display: inline-block;
+      vertical-align: text-top;
+      margin-right: 5px;
+    }
+  }
+
+}
+.click-style:hover {
+  .issues-title,
+  .issues-detail,& {
+    color: #0052d9;
+  }
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="776" height="581.71" viewBox="0 0 776 581.71">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0058ff"/>
+      <stop offset="0.7" stop-color="#0e83ff"/>
+      <stop offset="0.99" stop-color="#1badfe"/>
+      <stop offset="1" stop-color="#1baefe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#108aff"/>
+      <stop offset="0.25" stop-color="#1290fe"/>
+      <stop offset="0.99" stop-color="#fc5529"/>
+      <stop offset="1" stop-color="#ff5426"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.076" x2="1" y2="0.924" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#025fff"/>
+      <stop offset="0.35" stop-color="#025fff"/>
+      <stop offset="0.655" stop-color="#795a99"/>
+      <stop offset="0.904" stop-color="#f05533"/>
+      <stop offset="0.99" stop-color="#f05533"/>
+      <stop offset="1" stop-color="#f05533"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.393" y1="0.197" x2="0.387" y2="0.638" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe6a26"/>
+      <stop offset="1" stop-color="#0975ff"/>
+    </linearGradient>
+    <clipPath id="clip-main">
+      <rect width="776" height="581.71"/>
+    </clipPath>
+  </defs>
+  <g id="main" clip-path="url(#clip-main)">
+    <g id="组_1" data-name="组 1" transform="translate(-2690.289 -4812.592)">
+      <path id="矩形_31_拷贝_87" data-name="矩形 31 拷贝 87" d="M3386.967,5162.979,3301,5311H3093l-137-238h-64l-51.833,90.354,51.453,88.964h97.538l35.219,60.894H2856v-1.142l-.194.111-86.193-149.031.353-.2L2857,5013h134l139,240h135l51.484-89.94Z" fill="url(#linear-gradient)"/>
+      <path id="矩形_31_拷贝_88" data-name="矩形 31 拷贝 88" d="M3386.967,5162.979l-85.71,148.2-70.257.04,85.484-148.155-52.878-91.427h-25.9l34.063-58.9h27.383l.622-.359.207.359h.02v.036l86.3,149.212-.529.306Z" fill="url(#linear-gradient-2)"/>
+      <path id="矩形_31_拷贝_89" data-name="矩形 31 拷贝 89" d="M2857.059,5013.36l-87.446,149.791L2856,5313h168l-35-61h-97l-51.833-88.646L2895,5068Z" fill="url(#linear-gradient-3)"/>
+      <path id="矩形_579_拷贝" data-name="矩形 579 拷贝" d="M3096.228,5195.94l-35.218-60.818,84.73-146.322-20.289-35.038H2954.385L2989,4893l171.67-.056,55.33,95.937Z" transform="translate(-2 -4)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>
